@@ -1,4 +1,5 @@
 import Navbar from "@/components/layout/Navbar";
+import TopBar from "@/components/layout/TopBar";
 import Footer from "@/components/layout/Footer";
 import Hero from "@/components/sections/Hero";
 import Impact from "@/components/sections/Impact";
@@ -13,6 +14,7 @@ import JoinCTA from "@/components/sections/JoinCTA";
 export default function Home() {
   return (
     <>
+      <TopBar />
       <Navbar />
       <main>
         <Hero />
