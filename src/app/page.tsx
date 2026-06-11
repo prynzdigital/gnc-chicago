@@ -5,6 +5,7 @@ import Hero from "@/components/sections/Hero";
 import Impact from "@/components/sections/Impact";
 import About from "@/components/sections/About";
 import Groups from "@/components/sections/Groups";
+import Directory from "@/components/sections/Directory";
 import Events from "@/components/sections/Events";
 import Testimonials from "@/components/sections/Testimonials";
 import Sponsors from "@/components/sections/Sponsors";
@@ -21,6 +22,7 @@ export default function Home() {
         <Impact />
         <About />
         <Groups />
+        <Directory />
         <Events />
         <Testimonials />
         <Sponsors />
