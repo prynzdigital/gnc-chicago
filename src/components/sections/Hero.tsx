@@ -98,13 +98,13 @@ export default function Hero() {
             className="font-serif text-5xl sm:text-6xl lg:text-7xl font-bold text-white leading-[1.08] mb-7 tracking-tight"
           >
             Connecting{" "}
-            <span className="text-ghana-gold">Ghanaians.</span>
+            <span className="text-ghana-gold drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">Ghanaians.</span>
             <br />
             Empowering{" "}
-            <span className="text-ghana-green">Leaders.</span>
+            <span className="text-green-300 drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">Leaders.</span>
             <br />
             Building{" "}
-            <span className="text-ghana-red">Community.</span>
+            <span className="text-red-300 drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">Community.</span>
           </motion.h1>
 
           {/* Subtext */}

@@ -2,12 +2,12 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { Instagram, Facebook, Linkedin, Youtube, Mail, MapPin, Phone, ArrowRight } from "lucide-react";
+import { Instagram, Facebook, Mail, MapPin, Phone, ArrowRight } from "lucide-react";
 import { useState } from "react";
 
 const quickLinks = [
   { label: "About GNC", href: "#about" },
-  { label: "Our Groups", href: "#groups" },
+  { label: "Our Affiliates", href: "#affiliates" },
   { label: "Upcoming Events", href: "#events" },
   { label: "Testimonials", href: "#testimonials" },
   { label: "Sponsors", href: "#sponsors" },
@@ -23,10 +23,8 @@ const getInvolved = [
 ];
 
 const socials = [
-  { label: "Instagram", icon: Instagram, href: "https://instagram.com" },
-  { label: "Facebook", icon: Facebook, href: "https://facebook.com" },
-  { label: "LinkedIn", icon: Linkedin, href: "https://linkedin.com" },
-  { label: "YouTube", icon: Youtube, href: "https://youtube.com" },
+  { label: "Facebook", icon: Facebook, href: "https://www.facebook.com/GNCCHICAGO/" },
+  { label: "Instagram", icon: Instagram, href: "https://www.instagram.com/ghana_national_council/?hl=en" },
 ];
 
 export default function Footer() {
@@ -127,17 +125,17 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-semibold text-sm mb-5 tracking-wide">Stay Connected</h4>
             <div className="space-y-3 mb-6">
-              <a href="mailto:info@gncchicago.org" className="flex items-center gap-3 text-sm text-gray-400 hover:text-ghana-gold transition-colors">
+              <a href="mailto:gnc.secretariate@gmail.com" className="flex items-center gap-3 text-sm text-gray-400 hover:text-ghana-gold transition-colors">
                 <Mail className="w-4 h-4 text-ghana-gold flex-shrink-0" />
-                info@gncchicago.org
+                gnc.secretariate@gmail.com
               </a>
               <div className="flex items-start gap-3 text-sm text-gray-400">
                 <MapPin className="w-4 h-4 text-ghana-gold flex-shrink-0 mt-0.5" />
-                Chicago, Illinois
+                741 E 84th St, Chicago, IL 60619
               </div>
-              <a href="tel:+13125550100" className="flex items-center gap-3 text-sm text-gray-400 hover:text-ghana-gold transition-colors">
+              <a href="tel:+17733223649" className="flex items-center gap-3 text-sm text-gray-400 hover:text-ghana-gold transition-colors">
                 <Phone className="w-4 h-4 text-ghana-gold flex-shrink-0" />
-                (312) 555-0100
+                (773) 322-3649
               </a>
             </div>
 

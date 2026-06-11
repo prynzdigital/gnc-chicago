@@ -20,27 +20,27 @@ export default function TopBar() {
       {/* Left — contact info */}
       <div className="flex items-center gap-5 px-5 flex-shrink-0 border-r border-gnc-border">
         <a
-          href="https://maps.google.com/?q=Chicago,IL"
+          href="https://maps.google.com/?q=741+E+84th+St+Chicago+IL+60619"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-1.5 hover:text-ghana-gold transition-colors whitespace-nowrap"
         >
           <MapPin className="w-3 h-3 text-ghana-gold flex-shrink-0" />
-          Chicago, Illinois
+          741 E 84th St, Chicago IL 60619
         </a>
         <a
-          href="mailto:info@gncchicago.org"
+          href="mailto:gnc.secretariate@gmail.com"
           className="flex items-center gap-1.5 hover:text-ghana-gold transition-colors whitespace-nowrap"
         >
           <Mail className="w-3 h-3 text-ghana-gold flex-shrink-0" />
-          info@gncchicago.org
+          gnc.secretariate@gmail.com
         </a>
         <a
-          href="tel:+13125550100"
+          href="tel:+17733223649"
           className="flex items-center gap-1.5 hover:text-ghana-gold transition-colors whitespace-nowrap"
         >
           <Phone className="w-3 h-3 text-ghana-gold flex-shrink-0" />
-          (312) 555-0100
+          (773) 322-3649
         </a>
       </div>
 
