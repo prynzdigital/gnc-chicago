@@ -4,6 +4,7 @@ import { MapPin, Mail, Phone } from "lucide-react";
 
 const upcomingEvents = [
   "🇬🇭 Flag Raising Ceremony — Jul 1 · Daley Plaza, 50 W Washington St",
+  "🥁 37th Annual Chicago GHANAFEST — Jul 25 · Washington Park, 5600 S Russell Dr",
   "🎉 GNC Annual Cultural Gala — Aug 16, 2025",
   "🤝 Professional Networking Mixer — Jul 11, 2025",
   "🎓 Back to School Community Mixer — Sep 6, 2025",
@@ -15,7 +16,7 @@ const ticker = [...upcomingEvents, ...upcomingEvents];
 
 export default function TopBar() {
   return (
-    <div className="relative z-50 bg-gnc-dark border-b border-gnc-border text-xs text-gray-400 hidden sm:flex items-stretch h-9 overflow-hidden">
+    <div className="fixed top-0 left-0 right-0 z-50 bg-gnc-dark border-b border-gnc-border text-xs text-gray-400 hidden sm:flex items-stretch h-9 overflow-hidden">
       {/* Left — contact info */}
       <div className="flex items-center gap-5 px-5 flex-shrink-0 border-r border-gnc-border">
         <a

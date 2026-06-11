@@ -46,6 +46,20 @@ const events = [
     spotsLeft: null,
   },
   {
+    id: 7,
+    featured: false,
+    title: "🥁 37th Annual Chicago GHANAFEST",
+    description:
+      "Chicago's biggest Ghanaian cultural festival returns! A full day of authentic music, food, dance, art, and community at Washington Park.",
+    date: "Saturday, July 25, 2025",
+    time: "All Day",
+    location: "Washington Park, 5600 S Russell Dr",
+    category: "GHANAFEST",
+    categoryColor: "bg-ghana-gold/20 text-amber-700",
+    spotsLeft: null,
+    badge: "Happening Soon",
+  },
+  {
     id: 3,
     featured: false,
     title: "Professional Networking Mixer",
