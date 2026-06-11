@@ -21,6 +21,20 @@ const events = [
   {
     id: 2,
     featured: false,
+    title: "🇬🇭 Ghana Flag Raising Ceremony",
+    description:
+      "Join us at Daley Plaza as we proudly raise the Ghana flag in honor of Republic Day. A powerful display of Ghanaian pride in the heart of Chicago.",
+    date: "Tuesday, July 1, 2025",
+    time: "10:00 AM – 12:00 PM",
+    location: "Daley Plaza, 50 W Washington St",
+    category: "Republic Day",
+    categoryColor: "bg-green-100 text-ghana-green",
+    spotsLeft: null,
+    badge: "Happening Soon",
+  },
+  {
+    id: 6,
+    featured: false,
     title: "Ghana Independence Day Celebration",
     description:
       "Commemorate Ghana's historic independence with performances, food, and community pride.",
@@ -178,6 +192,14 @@ export default function Events() {
               transition={{ duration: 0.5, delay: i * 0.08 }}
               className="group p-5 rounded-2xl border border-gray-100 bg-white hover:border-gray-200 hover:shadow-lg transition-all duration-300 hover:-translate-y-0.5 flex flex-col"
             >
+              {"badge" in event && event.badge && (
+                <div className="mb-2">
+                  <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-ghana-gold/20 text-amber-700 text-[10px] font-bold tracking-wide uppercase">
+                    <span className="w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse" />
+                    {event.badge}
+                  </span>
+                </div>
+              )}
               <div className="flex items-start justify-between mb-3">
                 <span className={`px-2.5 py-1 rounded-full text-xs font-semibold ${event.categoryColor}`}>
                   {event.category}

@@ -3,11 +3,12 @@
 import { MapPin, Mail, Phone } from "lucide-react";
 
 const upcomingEvents = [
+  "🇬🇭 Flag Raising Ceremony — Jul 1 · Daley Plaza, 50 W Washington St",
   "🎉 GNC Annual Cultural Gala — Aug 16, 2025",
-  "🇬🇭 Ghana Independence Day Celebration — Mar 6, 2025",
   "🤝 Professional Networking Mixer — Jul 11, 2025",
   "🎓 Back to School Community Mixer — Sep 6, 2025",
   "❤️ Community Service Day — Oct 18, 2025",
+  "🇬🇭 Ghana Independence Day Celebration — Mar 6, 2025",
 ];
 
 const ticker = [...upcomingEvents, ...upcomingEvents];

@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { ArrowRight, ChevronDown } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 
 const stats = [
@@ -30,8 +31,20 @@ export default function Hero() {
         <div className="flex-1 bg-ghana-green" />
       </div>
 
-      {/* Background: Ghana-color radial glows */}
-      <div className="absolute inset-0 bg-hero-gradient" />
+      {/* Background photo */}
+      <div className="absolute inset-0">
+        <Image
+          src="/fredom.jpeg"
+          alt="GNC Community"
+          fill
+          className="object-cover object-center"
+          priority
+        />
+        {/* Dark overlay for text legibility */}
+        <div className="absolute inset-0 bg-gnc-dark/70" />
+        {/* Ghana-color radial glows on top of photo */}
+        <div className="absolute inset-0 bg-hero-gradient opacity-60" />
+      </div>
 
       {/* Decorative Black Star watermark */}
       <div className="absolute inset-0 flex items-center justify-end pr-8 lg:pr-24 pointer-events-none overflow-hidden">

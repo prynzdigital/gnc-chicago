@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Menu, X } from "lucide-react";
 import { AnimatePresence, motion } from "framer-motion";
 
@@ -16,14 +17,14 @@ const navLinks = [
 function GNCLogo({ dark }: { dark: boolean }) {
   return (
     <Link href="/" className="flex items-center gap-3 group">
-      <div className="relative w-10 h-10 flex-shrink-0">
-        <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-10 h-10">
-          <circle cx="20" cy="20" r="20" fill="#006B3F" />
-          <path
-            d="M20 7L22.9 16.6H33L24.5 22.4L27.4 32L20 26.2L12.6 32L15.5 22.4L7 16.6H17.1L20 7Z"
-            fill="#FCD116"
-          />
-        </svg>
+      <div className="relative w-12 h-12 flex-shrink-0">
+        <Image
+          src={dark ? "/gnc-logo-dark.jpeg" : "/gnc-logo-light.jpeg"}
+          alt="Ghana National Council Logo"
+          fill
+          className="object-contain rounded-full"
+          priority
+        />
       </div>
       <div className="flex flex-col leading-tight">
         <span
