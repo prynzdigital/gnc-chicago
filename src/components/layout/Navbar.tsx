@@ -28,18 +28,18 @@ function GNCLogo({ dark }: { dark: boolean }) {
       </div>
       <div className="flex flex-col leading-tight">
         <span
-          className={`font-serif font-bold text-lg leading-none transition-colors ${
+          className={`font-serif font-bold text-sm leading-none transition-colors ${
             dark ? "text-gray-900" : "text-white"
           }`}
         >
-          GNC
+          Ghana National Council
         </span>
         <span
           className={`text-[10px] font-medium tracking-wide transition-colors ${
             dark ? "text-gray-500" : "text-gray-300"
           }`}
         >
-          Ghana National Council
+          Of Metropolitan Chicago
         </span>
       </div>
     </Link>

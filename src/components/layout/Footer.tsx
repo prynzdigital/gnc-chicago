@@ -64,8 +64,8 @@ export default function Footer() {
                 />
               </div>
               <div>
-                <div className="font-serif font-bold text-lg text-white leading-none">GNC</div>
-                <div className="text-[10px] text-gray-400 tracking-wide">Ghana National Council</div>
+                <div className="font-serif font-bold text-sm text-white leading-tight">Ghana National Council</div>
+                <div className="text-[10px] text-gray-400 tracking-wide">Of Metropolitan Chicago</div>
               </div>
             </div>
             <p className="text-sm text-gray-400 leading-relaxed mb-6">

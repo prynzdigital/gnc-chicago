@@ -15,31 +15,31 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Ghana National Council | Connecting Ghanaians. Empowering Leaders.",
+  title: "Ghana National Council of Metropolitan Chicago | Connecting Ghanaians. Empowering Leaders.",
   description:
-    "The Ghana National Council (GNC) unites Ghanaian students and community members, promotes Ghanaian culture and heritage, and fosters leadership development and professional networks in Chicago.",
+    "The Ghana National Council of Metropolitan Chicago unites Ghanaian students and community members, promotes Ghanaian culture and heritage, and fosters leadership development and professional networks.",
   keywords: [
     "Ghana National Council",
-    "GNC",
+    "Ghana National Council of Metropolitan Chicago",
     "GNC Chicago",
     "Ghanaian community Chicago",
-    "Ghana students",
-    "African cultural organization",
+    "Ghana students Chicago",
+    "African cultural organization Chicago",
     "Ghanaian culture",
-    "Ghana diaspora",
+    "Ghana diaspora Chicago",
   ],
-  authors: [{ name: "Ghana National Council" }],
+  authors: [{ name: "Ghana National Council of Metropolitan Chicago" }],
   openGraph: {
-    title: "Ghana National Council | Connecting Ghanaians. Empowering Leaders.",
+    title: "Ghana National Council of Metropolitan Chicago",
     description:
       "Unite with the Ghanaian community. Join GNC to celebrate culture, grow your network, and create lasting impact.",
     type: "website",
     locale: "en_US",
-    siteName: "Ghana National Council",
+    siteName: "Ghana National Council of Metropolitan Chicago",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ghana National Council",
+    title: "Ghana National Council of Metropolitan Chicago",
     description: "Connecting Ghanaians. Empowering Leaders. Building Community.",
   },
   robots: {
